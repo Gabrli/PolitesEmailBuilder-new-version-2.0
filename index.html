@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      type="text/css"
+    />
+
+    <script src="src/index.js" type="module" defer></script>
+    <script src="src/clipBoard.js" type="module" defer=""></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Polite emial bulder</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h2>Polite email builder</h2>
+    </header>
+
+    <div class="main-container">
+      <div class="builder-box">
+        <label for="adress">To:</label>
+        <section id="adress" class="information-section">
+          <input
+            id="emailText"
+            class="nameBox"
+            type="text"
+            placeholder="example@mail.com"
+            value=""
+          />
+        </section>
+        <label for="subject">Subject:</label>
+        <section id="subject" class="information-section">
+          <input
+            onchange="textUpdate()"
+            id="subjectText"
+            class="nameBox"
+            placeholder="Example message subject"
+            type="text"
+          />
+        </section>
+        <label for="content">Body:</label>
+        <section id="content" class="information-section">
+          <div id="greeting" class="options-wrapper"></div>
+          <div id="followUp" class="options-wrapper"></div>
+          <textarea
+            id="emailBodyContntent"
+            class="emailBody"
+            aria-valuetext=""
+            placeholder="Your message"
+          ></textarea>
+          <div id="farwell" class="options-wrapper"></div>
+          <div id="conclusions" class="options-wrapper"></div>
+        </section>
+        <section class="information-section">
+          <input
+            type="text"
+            class="nameBox"
+            placeholder="Your signature/name"
+          />
+        </section>
+      </div>
+    </div>
+
+    <section class="options-section">
+      <div class="options-buttons-container">
+        <button class="reset-btn">Reset All</button>
+        <a
+          href="https://www.microsoft.com/pl-pl/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+          ><button class="link-btn">Send</button></a
+        >
+        <button type="button" class="copy-btn">Copy to clipboard</button>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-btns-section">
+        <a href="https://gabrieldeveloper.gabrys564.repl.co/"
+          ><button><i class="fa-brands fa-uncharted"></i> My website</button></a
+        >
+        <a href="https://github.com/Gabrli"
+          ><button><i class="fa-brands fa-github"></i> GitHub</button></a
+        >
+        <a
+          ><button><i class="fa-solid fa-bug"></i> Repo</button></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,314 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(240, 234, 226);
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-header{
+    width: 100%;
+    text-align: center;
+}
+.main-header h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+
+}
+.builder-box{
+    max-width: 90%;
+    min-width: 90%;
+    height: 400px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: 0 1px solid #afafaf;
+    overflow-y: scroll;
+    box-shadow: 0 1px 3px #101010;
+}
+.builder-box label{
+    color: rgb(119, 118, 118);
+    margin: 2%;
+    text-align: center;
+
+}
+.information-section{
+    max-width: 95%;
+    min-width: 95%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+}
+.information-section input{
+    max-width: 95%;
+    min-width: 95%;
+    height: 45px;
+    margin: 10px;
+    margin-left: 2%;
+    border-radius: 16px;
+    border-style: dashed;
+    font-weight: 600;
+}
+.options-wrapper{
+    padding: 15px 25%;
+   
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border: 2px solid #afafaf;
+    border-radius: 10px;
+   
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  
+    border-radius: 10px;
+   
+}
+.btn-grettings{
+    padding:10px 10px ;
+    height: 60px;
+    margin: 6px;
+    transition: .2s ease-in-out;
+    background-color:#D25380 ;
+    border: 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow:  0 3px 3px #303030;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+}
+.btn-followUp{
+    min-height: 50px;
+    margin: 10px;
+    background-color: #19A7CE;
+    border: 0px;
+    transition: .2s ease-in-out;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow:  0 3px 3px #303030;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+}
+.btn-farwell{
+    margin: 7px;
+    min-height: 40px;
+    background-color: #FFD95A;
+    border: 0px;
+    transition: .2s ease-in-out;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+   
+    -webkit-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+}
+
+
+.new-item{
+    min-width: 100%;
+    min-width: 50%;
+    height: 60px;
+    font-size: 20px;
+    text-align: left;
+    border: 0px;
+    border-bottom:dashed;
+    transition: .2s ease-in-out;
+    animation: slide 2s ;
+  
+    
+}
+.new-item button{
+    margin-left: 90%;
+    margin-top: 5%;
+    width: 40px;
+    transition: .2s ease-in-out;
+    font-weight: bold;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #101010;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    -webkit-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+}
+
+
+
+.new-item button:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.1,1.1);
+    background-color: black;
+    color: #fff;
+}
+
+.class-sections{
+    
+    max-width: 95%;
+    min-width: 95%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 0px;
+    overflow-x: hidden;
+    justify-content: center;
+    display: block;
+    overflow-y: hidden;
+    
+  
+}
+.emailBody{
+    max-width: 95%;
+    min-width: 95%;
+    height: 120px;
+    margin-left: 2%;
+    transition: .2s ease-in-out;
+    margin-top: 2%;
+    border: dashed grey;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.hidden-elements{
+    display: none;
+}
+.btn-conclusion{
+    min-height: 40px;
+    transition: .2s ease-in-out;
+    margin: 5px;
+    background-color: #00FFCA;
+    border: 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow:  0 3px 3px #303030;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 50px -16px rgba(66, 68, 90, 1);
+}
+.options-section{
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+.options-buttons-container{
+    max-width: 300px;
+    height: 70px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.options-buttons-container button{
+    margin: 10px;
+    max-width: 120px;
+    min-width: 25%;
+    color: #fff;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    background-color: orange;
+    border: 0px;
+    border-radius: 10px;
+}
+.main-footer{
+    width: 100%;
+    position: relative;
+    top: 90px;
+}
+.footer-btns-section{
+    max-width: 120px;
+    min-width: 25%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-btns-section button{
+    width: 100px;
+    background-color: transparent;
+    text-decoration: none;
+    border: 0px;
+    font-weight: 400;
+    transition: .2s ease-in-out;
+    font-size: 14px;
+    color: rgb(165, 164, 164);
+}
+.link-btn{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    text-decoration: none;
+    border: 0px;
+    font-weight: 400;
+    transition: .2s ease-in-out;
+    font-size: 14px;
+    color: rgb(165, 164, 164);
+}
+.footer-btns-section button:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.1,1.1);
+    color: royalblue;
+}
+.options-buttons-container button:hover{
+    transition: .2s ease-in-out;
+    background-color: rgb(194, 131, 14);
+    transform: scale(1.1,1.1);
+}
+.emailBody:hover{
+    transition: .2s ease-in-out;
+    border-style: groove;
+}
+.btn-grettings:hover{
+    transition: .2s ease-in-out;
+    background-color: grey;
+    transform: scale(1.1,1.1);
+}
+.btn-followUp:hover{
+    transition: .2s ease-in-out;
+    background-color: grey;
+    transform: scale(1.1,1.1);
+    
+}
+.btn-conclusion:hover{
+    transition: .2s ease-in-out;
+    background-color: grey;
+    transform: scale(1.1,1.1);
+}
+.btn-farwell:hover{
+    transition: .2s ease-in-out;
+    background-color: grey;
+    transform: scale(1.1,1.1);
+}
+@keyframes slide{
+    0%{
+        transform: translateX(100%);
+    }
+}
+
+
