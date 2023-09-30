@@ -19,8 +19,10 @@ Hi there! This app is it email builder which help you in write email in English.
 ---
 
 # SCREENS: 
-![image](https://github.com/Gabrli/PolitesEmailBuilder/assets/110058841/a3f1c2bd-47d8-4fa0-a947-7ceb7c312a60)
-![image](https://github.com/Gabrli/PolitesEmailBuilder/assets/110058841/a17f57ff-6638-4b60-98d3-e542ea04eaf3)
+![image](https://github.com/Gabrli/PolitesEmailBuilder-new-version-2.0/assets/110058841/78c0e96a-a6fb-41a0-95de-70b2c43071bf)
+
+![image](https://github.com/Gabrli/PolitesEmailBuilder-new-version-2.0/assets/110058841/567229d3-848d-4632-bd15-a6342e6be113)
+
 
 #  :woman_technologist: Made by:
 https://gabrieldeveloper.gabrys564.repl.co/
