@@ -32,6 +32,6 @@ https://gabrieldeveloper.gabrys564.repl.co/
 ![github-header-image](https://github.com/Gabrli/Gabrli/assets/110058841/e8a5205a-8a2b-4198-8788-a39565b0d7e4)
 
 # LIVE website:
-https://gabrli.github.io/PolitesEmailBuilder-new-version-2.0/
+https://politesemailbuilder-new-version-20.gabrys564.repl.co/
 
 
