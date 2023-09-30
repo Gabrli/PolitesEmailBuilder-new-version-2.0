@@ -1,5 +1,7 @@
 # PolitesEmailBuilder
 ---
+- Project inspire: https://purpleblack.dev/
+---
 # About
 Hi there! This app is it email builder which help you in write email in English.
 
